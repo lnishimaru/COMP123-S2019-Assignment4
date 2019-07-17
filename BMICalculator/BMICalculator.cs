@@ -16,5 +16,30 @@ namespace BMICalculator
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void WeightLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RadioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ResultProgressBar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CalculateBMIButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
