@@ -91,6 +91,19 @@ namespace BMICalculator
             WeightInput.Text = string.Empty;
             HeightInput.Text = string.Empty;
         }
+
+        private void BMICalculatorForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            try
+            {
+                Application.Exit();
+            }
+            catch (Exception exception)
+            {
+                Debug.WriteLine("Application Exception: " + exception.Message);
+            }
+        }
+
         private bool ValidateEntries()
         {
             bool isValid = true;
