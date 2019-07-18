@@ -87,6 +87,7 @@
             this.WeightInput.Size = new System.Drawing.Size(100, 30);
             this.WeightInput.TabIndex = 7;
             this.WeightInput.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.WeightInput.Enter += new System.EventHandler(this.WeightInput_Enter);
             // 
             // ImperialRadioButton
             // 
@@ -172,6 +173,7 @@
             this.HeightInput.TabIndex = 6;
             this.HeightInput.Tag = "";
             this.HeightInput.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.HeightInput.Enter += new System.EventHandler(this.HeightInput_Enter);
             // 
             // ResultProgressBar
             // 

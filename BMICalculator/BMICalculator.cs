@@ -104,6 +104,22 @@ namespace BMICalculator
             }
         }
 
+        private void WeightInput_Enter(object sender, EventArgs e)
+        {
+            if (WeightInput.Text == "invalid weight")
+            {
+                WeightInput.Text = "";
+            }
+        }
+
+        private void HeightInput_Enter(object sender, EventArgs e)
+        {
+            if (HeightInput.Text == "invalid height")
+            {
+                HeightInput.Text = "";
+            }
+        }
+
         private bool ValidateEntries()
         {
             bool isValid = true;
@@ -113,12 +129,7 @@ namespace BMICalculator
             }
             catch (Exception)
             {
-                WeightInput.Text = "invalid input";
-                isValid = false;
-            }
-            if (weight ==0)
-            {
-                WeightInput.Text = "invalid input";
+                WeightInput.Text = "invalid weight";
                 isValid = false;
             }
             try
@@ -127,12 +138,18 @@ namespace BMICalculator
             }
             catch (Exception)
             {
-                HeightInput.Text = "invalid input";
+                HeightInput.Text = "invalid height";
+                isValid = false;
+            }
+            // check values entered
+            if (weight == 0)
+            {
+                WeightInput.Text = "invalid weight";
                 isValid = false;
             }
             if (height == 0)
             {
-                HeightInput.Text = "required field";
+                HeightInput.Text = "invalid height";
                 isValid = false;
             }
             return isValid;
