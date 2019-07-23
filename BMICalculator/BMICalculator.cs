@@ -40,7 +40,10 @@ namespace BMICalculator
                 ShowResults(result);
             }
         }
-
+        /// <summary>
+        /// Show the BMI result and format progress bar
+        /// </summary>
+        /// <param name="result"></param>
         private void ShowResults(double result)
         {
             // show the result and changes the progress bar
@@ -91,7 +94,11 @@ namespace BMICalculator
             WeightInput.Text = string.Empty;
             HeightInput.Text = string.Empty;
         }
-
+        /// <summary>
+        /// Closing the application event 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BMICalculatorForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             try
@@ -103,7 +110,11 @@ namespace BMICalculator
                 Debug.WriteLine("Application Exception: " + exception.Message);
             }
         }
-
+        /// <summary>
+        /// Clear the text box to input the weight
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void WeightInput_Enter(object sender, EventArgs e)
         {
             if (WeightInput.Text == "invalid weight")
@@ -111,7 +122,11 @@ namespace BMICalculator
                 WeightInput.Text = "";
             }
         }
-
+        /// <summary>
+        /// Clear the text box to input the height
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void HeightInput_Enter(object sender, EventArgs e)
         {
             if (HeightInput.Text == "invalid height")
@@ -119,7 +134,10 @@ namespace BMICalculator
                 HeightInput.Text = "";
             }
         }
-
+        /// <summary>
+        /// Validate user entries
+        /// </summary>
+        /// <returns></returns>
         private bool ValidateEntries()
         {
             bool isValid = true;
