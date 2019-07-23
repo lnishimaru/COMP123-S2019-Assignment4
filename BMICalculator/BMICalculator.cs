@@ -45,7 +45,7 @@ namespace BMICalculator
         {
             // show the result and changes the progress bar
             ResultLabel.Text = result.ToString("0.00");
-            if (result > 30)
+            if (result >= 30)
             {
                 ResultProgressBar.Value = 100;
                 ResultProgressBar.ForeColor = Color.FromArgb(246, 12, 12);
@@ -53,7 +53,7 @@ namespace BMICalculator
             }
             else
             {
-                if (result > 25)
+                if (result >= 25)
                 {
                     ResultProgressBar.Value = 75;
                     ResultProgressBar.ForeColor = Color.FromArgb(255, 153, 51);
@@ -61,7 +61,7 @@ namespace BMICalculator
                 }
                 else
                 {
-                    if (result > 18.5)
+                    if (result >= 18.5)
                     {
                         ResultProgressBar.Value = 50;
                         ResultProgressBar.ForeColor = Color.FromArgb(0, 204, 0);
@@ -70,7 +70,7 @@ namespace BMICalculator
                     else
                     {
                         ResultProgressBar.Value = 25;
-                        ResultProgressBar.ForeColor = Color.FromArgb(255, 255, 102);
+                        ResultProgressBar.ForeColor = Color.FromArgb(246, 12, 12);
                         ResultDescription.Text = "Underweight";
                     }
                 }

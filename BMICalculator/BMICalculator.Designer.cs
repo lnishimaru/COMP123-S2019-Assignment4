@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BMICalculatorForm));
             this.BMICalculatorLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.WeightInput = new System.Windows.Forms.TextBox();
             this.ImperialRadioButton = new System.Windows.Forms.RadioButton();
@@ -246,7 +247,7 @@
             this.InfoLabel14.AutoSize = true;
             this.InfoLabel14.BackColor = System.Drawing.SystemColors.Window;
             this.InfoLabel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InfoLabel14.ForeColor = System.Drawing.Color.SteelBlue;
+            this.InfoLabel14.ForeColor = System.Drawing.Color.DimGray;
             this.InfoLabel14.Location = new System.Drawing.Point(116, 89);
             this.InfoLabel14.Margin = new System.Windows.Forms.Padding(0);
             this.InfoLabel14.Name = "InfoLabel14";
@@ -262,7 +263,7 @@
             this.InfoLabel04.AutoSize = true;
             this.InfoLabel04.BackColor = System.Drawing.SystemColors.Window;
             this.InfoLabel04.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InfoLabel04.ForeColor = System.Drawing.Color.SteelBlue;
+            this.InfoLabel04.ForeColor = System.Drawing.Color.Red;
             this.InfoLabel04.Location = new System.Drawing.Point(1, 89);
             this.InfoLabel04.Margin = new System.Windows.Forms.Padding(0);
             this.InfoLabel04.Name = "InfoLabel04";
@@ -278,7 +279,7 @@
             this.InfoLabel13.AutoSize = true;
             this.InfoLabel13.BackColor = System.Drawing.SystemColors.Window;
             this.InfoLabel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InfoLabel13.ForeColor = System.Drawing.Color.SteelBlue;
+            this.InfoLabel13.ForeColor = System.Drawing.Color.DimGray;
             this.InfoLabel13.Location = new System.Drawing.Point(116, 67);
             this.InfoLabel13.Margin = new System.Windows.Forms.Padding(0);
             this.InfoLabel13.Name = "InfoLabel13";
@@ -294,7 +295,7 @@
             this.InfoLabel03.AutoSize = true;
             this.InfoLabel03.BackColor = System.Drawing.SystemColors.Window;
             this.InfoLabel03.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InfoLabel03.ForeColor = System.Drawing.Color.SteelBlue;
+            this.InfoLabel03.ForeColor = System.Drawing.Color.Orange;
             this.InfoLabel03.Location = new System.Drawing.Point(1, 67);
             this.InfoLabel03.Margin = new System.Windows.Forms.Padding(0);
             this.InfoLabel03.Name = "InfoLabel03";
@@ -310,7 +311,7 @@
             this.InfoLabel12.AutoSize = true;
             this.InfoLabel12.BackColor = System.Drawing.SystemColors.Window;
             this.InfoLabel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InfoLabel12.ForeColor = System.Drawing.Color.SteelBlue;
+            this.InfoLabel12.ForeColor = System.Drawing.Color.DimGray;
             this.InfoLabel12.Location = new System.Drawing.Point(116, 45);
             this.InfoLabel12.Margin = new System.Windows.Forms.Padding(0);
             this.InfoLabel12.Name = "InfoLabel12";
@@ -326,7 +327,7 @@
             this.InfoLabel02.AutoSize = true;
             this.InfoLabel02.BackColor = System.Drawing.SystemColors.Window;
             this.InfoLabel02.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InfoLabel02.ForeColor = System.Drawing.Color.SteelBlue;
+            this.InfoLabel02.ForeColor = System.Drawing.Color.Green;
             this.InfoLabel02.Location = new System.Drawing.Point(1, 45);
             this.InfoLabel02.Margin = new System.Windows.Forms.Padding(0);
             this.InfoLabel02.Name = "InfoLabel02";
@@ -342,7 +343,7 @@
             this.InfoLabel11.AutoSize = true;
             this.InfoLabel11.BackColor = System.Drawing.SystemColors.Window;
             this.InfoLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InfoLabel11.ForeColor = System.Drawing.Color.SteelBlue;
+            this.InfoLabel11.ForeColor = System.Drawing.Color.DimGray;
             this.InfoLabel11.Location = new System.Drawing.Point(116, 23);
             this.InfoLabel11.Margin = new System.Windows.Forms.Padding(0);
             this.InfoLabel11.Name = "InfoLabel11";
@@ -356,7 +357,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.InfoLabel10.AutoSize = true;
-            this.InfoLabel10.BackColor = System.Drawing.Color.SteelBlue;
+            this.InfoLabel10.BackColor = System.Drawing.Color.DimGray;
             this.InfoLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InfoLabel10.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.InfoLabel10.Location = new System.Drawing.Point(116, 1);
@@ -372,7 +373,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.InfoLabel00.AutoSize = true;
-            this.InfoLabel00.BackColor = System.Drawing.Color.SteelBlue;
+            this.InfoLabel00.BackColor = System.Drawing.Color.DimGray;
             this.InfoLabel00.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InfoLabel00.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.InfoLabel00.Location = new System.Drawing.Point(1, 1);
@@ -390,7 +391,7 @@
             this.Infolabel01.AutoSize = true;
             this.Infolabel01.BackColor = System.Drawing.SystemColors.Window;
             this.Infolabel01.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Infolabel01.ForeColor = System.Drawing.Color.SteelBlue;
+            this.Infolabel01.ForeColor = System.Drawing.Color.Red;
             this.Infolabel01.Location = new System.Drawing.Point(1, 23);
             this.Infolabel01.Margin = new System.Windows.Forms.Padding(0);
             this.Infolabel01.Name = "Infolabel01";
@@ -419,6 +420,7 @@
             this.Controls.Add(this.BMICalculatorLayoutPanel);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(8);
             this.MaximizeBox = false;
             this.Name = "BMICalculatorForm";
